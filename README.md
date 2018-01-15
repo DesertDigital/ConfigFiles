@@ -41,7 +41,7 @@ These are the config files I use for my personal Linux Distributions.
 * [Manjaro](http://manjaro.org/)
 * [Void Linux](https://www.voidlinux.eu/)
 
-##Linux Distributions for Work
+## Linux Distributions for Work
 * [CentOS](https://www.centos.org/)
 * [Debian](https://www.debian.org/)
 * [Ubuntu](https://www.ubuntu.com/)
