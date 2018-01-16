@@ -189,3 +189,15 @@ new_window pixel 0
 #xrandr --output DP-1 --auto --right-of HDMI-1
 
 exec_always compton
+
+# Press $mod+o followed by package letter                                                                                     
+set $mode_launcher Launch: [a]nki [e]macs [f]irefox
+bindsym $mod+o mode "$mode_launcher"
+
+mode "$mode_launcher" {
+    bindsym a exec anki
+    bindsym f exec firefox
+    bindsym e exec emacs
+    bindsym Escape mode "default"
+    bindsym Return mode "default"
+}
