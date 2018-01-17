@@ -36,6 +36,10 @@ These are the config files I use for my personal Linux Distributions.
 ### Music Player
 * [cmus](https://cmus.github.io)
 
+### Audio
+* PulseAudio 
+* Pavucontrol
+
 ## Linux Distributions for Personal Use
 * [Arch Linux](https://www.archlinux.org/)
 * [Manjaro](http://manjaro.org/)
