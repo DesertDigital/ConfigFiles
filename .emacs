@@ -6,10 +6,6 @@
 ;; You may delete these explanatory comments.                                                                                           
 (package-initialize)
 
-;Disable Backups
-(setq make-backup-files nil) ; stop creating backup~ files
-(setq auto-save-default nil) ; stop creating #autosave# files
-
 (when (>= emacs-major-version 24)
   (require 'package)
   (add-to-list
@@ -29,4 +25,8 @@
  ;; Your init file should contain only one such instance.                                                                               
  ;; If there is more than one, they won't work right.                                                                                   
  )
+
+;Disable Backups
+(setq make-backup-files nil) ; stop creating backup~ files
+(setq auto-save-default nil) ; stop creating #autosave# files
 
