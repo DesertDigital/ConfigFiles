@@ -136,6 +136,6 @@ elif ["$@" == "C"]; then
 elif ["$@" == "C++"]; then
 	builtin cd ~/Programming/C++
 else
-	buildin cd "$@"
+	builtin cd "$@"
 fi
 }
