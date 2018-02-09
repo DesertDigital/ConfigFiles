@@ -1,3 +1,9 @@
+ #  ___                       _             _                           __ _ _     
+ # | _ \_  _ __ _ _ _  ___   | |__  __ _ __| |_  _ _ __   _ __ _ _ ___ / _(_) |___ 
+ # |   / || / _` | ' \(_-<  _| '_ \/ _` (_-< ' \| '_/ _| | '_ \ '_/ _ \  _| | / -_)
+ # |_|_\\_, \__,_|_||_/__/ (_)_.__/\__,_/__/_||_|_| \__| | .__/_| \___/_| |_|_\___|
+ #      |__/                                             |_|                       
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -120,3 +126,16 @@ RED="\[$(tput setaf 1)\]"
 RESET="\[$(tput sgr0)\]"
 
 export PS1="${RED}Desert Digital${RESET}> "
+
+#Custom cd commands 
+function cd {
+if ["$@" == "Rust"]; then 
+	builtin cd ~/Programming/Rust
+elif ["$@" == "C"]; then
+	builtin cd ~/Programming/C
+elif ["$@" == "C++"]; then
+	builtin cd ~/Programming/C++
+else
+	buildin cd "$@"
+fi
+}
