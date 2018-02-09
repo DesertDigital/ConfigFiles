@@ -1,5 +1,13 @@
-;; load emacs 24's package system. Add MELPA repository.                                                                                
+;______                         _____                           ______ _ _      
+;| ___ \                       |  ___|                          |  ___(_) |     
+;| |_/ /_   _  __ _ _ __  ___  | |__  _ __ ___   __ _  ___ ___  | |_   _| | ___ 
+;|    /| | | |/ _` | '_ \/ __| |  __|| '_ ` _ \ / _` |/ __/ __| |  _| | | |/ _ \
+;| |\ \| |_| | (_| | | | \__ \ | |___| | | | | | (_| | (__\__ \ | |   | | |  __/
+;\_| \_|\__, |\__,_|_| |_|___/ \____/|_| |_| |_|\__,_|\___|___/ \_|   |_|_|\___|
+;        __/ |                                                                  
+;       |___/                                                           
 
+;; load emacs 24's package system. Add MELPA repository.                                                                                
 ;; Added by Package.el.  This must come before configurations of                                                                        
 ;; installed packages.  Don't delete this line.  If you don't want it,                                                                  
 ;; just comment it out by adding a semicolon to the start of the line.                                                                  
