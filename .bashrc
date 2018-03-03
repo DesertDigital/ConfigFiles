@@ -128,6 +128,7 @@ RESET="\[$(tput sgr0)\]"
 export PS1="${RED}Desert Digital${RESET}> "
 
 #Custom cd commands 
+#Thanks to @CraigKnoblauch and @BryceBeagle for helping me with this config.
 function cd {
 if ["$@" == "Rust"]; then 
 	builtin cd ~/Programming/Rust
